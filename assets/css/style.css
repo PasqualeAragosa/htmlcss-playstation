@@ -28,4 +28,14 @@ img {
     margin: auto;
 }
 
-/* #region Common */
+/* #endregion Common */
+
+/* #region Header */
+.brand {
+    background-color: var(--pl-dark);
+}
+
+.brand img {
+    width: 50px;
+}
+/* #endregion Header */
