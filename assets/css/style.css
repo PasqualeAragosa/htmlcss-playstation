@@ -1,19 +1,17 @@
 /* #region Common */
 
 :root {
-    background: #000000;
-    background: #00439C;
-    background: #161C3B;
-    background: #1F1F1F;
-    background: #242424;
-    background: #2D64E6;
-    background: #318CD7;
-    background: #363636;
-    background: #7B7B7B;
-    background: #BEBCBB;
-    background: #CD3D0F;
-    background: #D9DADC;
-    background: #FFFFFF;
+    --pl-dark: #000000;
+    --pl-btn-seconday: #2D64E6;
+    --pl-bg-secondary-heavy: #161C3B;
+    --pl-bg-dark-light: #1F1F1F;
+    --pl-secondary-light: #4F9EDD;
+    --pl-bg-seconday-soft: #00439C;
+    --pl-btn-dark: #363636;
+    --pl-dark-soft: #7E7E7E;
+    --pl-bg-dark-soft: #BEBCBB;
+    --pl-btn-hot: #CD3D0F;
+    --pl-light: #FFFFFF;
 }
 
 body {
