@@ -24,4 +24,10 @@ img {
     max-width: 100%;
 }
 
+.wrapper {
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+}
+
 /* #region Common */
