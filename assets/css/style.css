@@ -217,5 +217,28 @@ p {
 /* #endregion Main */
 
 /* #region Footer */
+.credits {
+    background-color: var(--pl-bg-seconday-soft);
+    color: var(--pl-light);
+}
 
+.logo_play {
+    width: 200px;
+}
+
+.language {
+    width: 20px;
+}
+
+.credits ul {
+    list-style: none;
+}
+
+.logo_sie {
+    width: 150px;
+}
+
+.credits p {
+    font-size: 15px;
+}
 /* #endregion Footer */
