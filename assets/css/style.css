@@ -130,6 +130,33 @@ p {
 /* #endregion Play5 */
 
 /* #region Takes_two */
+.takes_two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 965px;
+    color: var(--pl-light);
+    display: flex;
+    align-items: center;
+}
 
+.takes_two .wrapper {
+    margin: 0 auto 1.5rem auto;
+}
+
+.takes_two img {
+    width: 300px;
+}
+
+.takes_two .my_btn {
+    background-color: var(--pl-btn-hot);
+}
 /* #endregion Takes_two */
+
+/* #region New_come_out */
+.new_come_out {
+    background-color: var(--pl-bg-dark-light);
+}
+/* #endregion New_come_out */
+
 /* #endregion Main */
