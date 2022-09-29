@@ -28,6 +28,10 @@ img {
     margin: auto;
 }
 
+.btn {
+    border-radius: 1rem;
+}
+
 /* #endregion Common */
 
 /* #region Header */
@@ -38,4 +42,17 @@ img {
 .brand img {
     width: 50px;
 }
+
+/* .navbar-collapse {
+    justify-content: space-between;
+} */
+
+.nav-item img {
+    width: 25px;
+}
+
+.nav-item button {
+    background-color: var(--pl-btn-dark);
+}
+
 /* #endregion Header */
