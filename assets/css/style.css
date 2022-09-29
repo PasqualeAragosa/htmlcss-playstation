@@ -11,6 +11,7 @@
     --pl-dark-soft: #7E7E7E;
     --pl-bg-dark-soft: #BEBCBB;
     --pl-btn-hot: #CD3D0F;
+    --pl-btn-plus: #D9DADC;
     --pl-light: #FFFFFF;
 
     --pl-h2: 40px;
@@ -171,4 +172,42 @@ p {
     background-color: var(--pl-btn-seconday);
 }
 /* #endregion Play4 */
+
+/* #region Call_to_action */
+.call_to_action {
+    background-color: var(--pl-bg-dark-soft);
+}
+
+.call_to_action .logo_plus {
+    width: 350px;
+}
+
+.call_to_action .my_btn {
+    background-color: var(--pl-btn-plus);
+    color: var(--pl-btn-seconday);
+}
+/* #endregion Call_to_action */
+
+/* #region Sales */
+.sales p {
+    color: var(--pl-dark-soft);
+}
+
+/* #endregion Sales */
+
+/* #region Play_now */
+.play_now {
+    background-color: var(--pl-bg-secondary-heavy);
+    color: var(--pl-light);
+}
+
+.play_now .logo_plus {
+    width: 350px;
+}
+
+.play_now .my_btn {
+    background-color: var(--pl-light);
+    color: var(--pl-dark);
+}
+/* #endregion Play_now */
 /* #endregion Main */
