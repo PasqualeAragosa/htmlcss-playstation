@@ -192,7 +192,6 @@ p {
 .sales p {
     color: var(--pl-dark-soft);
 }
-
 /* #endregion Sales */
 
 /* #region Play_now */
@@ -210,4 +209,13 @@ p {
     color: var(--pl-dark);
 }
 /* #endregion Play_now */
+
+/* #region Social */
+
+/* #endregion Social */
+
 /* #endregion Main */
+
+/* #region Footer */
+
+/* #endregion Footer */
