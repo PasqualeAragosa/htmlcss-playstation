@@ -12,6 +12,8 @@
     --pl-bg-dark-soft: #BEBCBB;
     --pl-btn-hot: #CD3D0F;
     --pl-light: #FFFFFF;
+
+    --pl-h6: 10px;
 }
 
 body {
@@ -87,4 +89,12 @@ img {
     background-color: var(--pl-btn-hot);
 }
 /* #endregion Jumbotron */
+
+/* #region Play5 */
+.play5 .col:first-child img {
+    border: 3px solid var(--pl-secondary-light);
+    padding: 0.1rem;
+}
+
+/* #endregion Play5 */
 /* #endregion Main */
