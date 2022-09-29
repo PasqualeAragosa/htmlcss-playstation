@@ -28,8 +28,9 @@ img {
     margin: auto;
 }
 
-.btn {
+.my_btn {
     border-radius: 1rem;
+    color: var(--pl-light);
 }
 
 /* #endregion Common */
@@ -43,9 +44,14 @@ img {
     width: 50px;
 }
 
-/* .navbar-collapse {
-    justify-content: space-between;
-} */
+.navbar-collapse {
+    /* justify-content: space-between; */
+    display: contents;
+}
+
+.navbar-collapse ul.left {
+    display: contents;
+}
 
 .nav-item img {
     width: 25px;
@@ -54,5 +60,31 @@ img {
 .nav-item button {
     background-color: var(--pl-btn-dark);
 }
-
 /* #endregion Header */
+
+/* #region Main */
+
+/* #region Jumbotron */
+.jumbotron {
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 675px;
+    color: var(--pl-light);
+    display: flex;
+    align-items: flex-end;
+}
+
+.jumbotron .wrapper {
+    margin: 0 auto 1.5rem auto;
+}
+
+.jumbotron img {
+    width: 300px;
+}
+
+.jumbotron .my_btn {
+    background-color: var(--pl-btn-hot);
+}
+/* #endregion Jumbotron */
+/* #endregion Main */
