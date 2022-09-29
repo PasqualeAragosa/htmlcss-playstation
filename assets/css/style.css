@@ -85,6 +85,7 @@ p {
     background-image: url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 675px;
     color: var(--pl-light);
     display: flex;
@@ -134,7 +135,8 @@ p {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    height: 965px;
+    background-size: cover;
+    /* height: 965px; */
     color: var(--pl-light);
     display: flex;
     align-items: center;
@@ -156,7 +158,17 @@ p {
 /* #region New_come_out */
 .new_come_out {
     background-color: var(--pl-bg-dark-light);
+    color: var(--pl-light);
 }
 /* #endregion New_come_out */
 
+/* #region Play4 */
+.play4 p {
+    color: var(--pl-dark-soft);
+}
+
+.play4 .my_btn {
+    background-color: var(--pl-btn-seconday);
+}
+/* #endregion Play4 */
 /* #endregion Main */
