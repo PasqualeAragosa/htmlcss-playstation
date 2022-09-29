@@ -13,7 +13,9 @@
     --pl-btn-hot: #CD3D0F;
     --pl-light: #FFFFFF;
 
-    --pl-h6: 10px;
+    --pl-h2: 40px;
+    --pl-h6: 12px;
+    --pl-p: 20px;
 }
 
 body {
@@ -22,6 +24,18 @@ body {
 
 img {
     max-width: 100%;
+}
+
+h2 {
+    font-size: var(--pl-h2);
+}
+
+h6 {
+    font-size: var(--pl-h6);
+}
+
+p {
+    font-size: var(--pl-p);
 }
 
 .wrapper {
@@ -91,10 +105,31 @@ img {
 /* #endregion Jumbotron */
 
 /* #region Play5 */
-.play5 .col:first-child img {
+.slots .col:first-child img {
     border: 3px solid var(--pl-secondary-light);
+    background-color: var(--pl-light);
     padding: 0.1rem;
 }
 
+.play5 h6 {
+    color: var(--pl-secondary-light);
+    margin-bottom: 0;
+}
+
+.play5 p {
+    color: var(--pl-dark-soft);
+}
+
+.play5 .my_btn {
+    background-color: var(--pl-btn-seconday);
+}
+
+.play5 .products img {
+    width: 200px;
+}
 /* #endregion Play5 */
+
+/* #region Takes_two */
+
+/* #endregion Takes_two */
 /* #endregion Main */
