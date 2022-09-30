@@ -101,7 +101,6 @@ p {
     background-image: url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     height: 675px;
     color: var(--pl-light);
     display: flex;
@@ -146,7 +145,10 @@ p {
 }
 
 .thumbnail {
-    transition-duration: 5s;
+    transition: 0.5s;
+    position: relative;
+    bottom: 0%;
+    
 }
 
 .thumbnail:hover {
