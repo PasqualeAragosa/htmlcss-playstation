@@ -61,21 +61,21 @@ p {
     width: 50px;
 }
 
-.navbar-collapse {
-    /* justify-content: space-between; */
-    display: contents;
-}
-
-.navbar-collapse ul.left {
-    display: contents;
-}
-
 .nav-item img {
     width: 25px;
 }
 
+.register {
+    display: flex;
+    align-items: center;
+}
+
 .nav-item button {
     background-color: var(--pl-btn-dark);
+}
+
+.lens {
+    width: 30px;
 }
 /* #endregion Header */
 
