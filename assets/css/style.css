@@ -53,6 +53,18 @@ p {
 /* #endregion Common */
 
 /* #region Header */
+#site_header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 5000;
+}
+
+.header_bottom {
+    background-color: var(--pl-light);
+}
+
 .brand {
     background-color: var(--pl-dark);
 }
@@ -80,6 +92,9 @@ p {
 /* #endregion Header */
 
 /* #region Main */
+#site_main {
+    margin-top: 84px;
+}
 
 /* #region Jumbotron */
 .jumbotron {
