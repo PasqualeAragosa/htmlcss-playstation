@@ -144,6 +144,14 @@ p {
 .play5 .products img {
     width: 200px;
 }
+
+.thumbnail:hover {
+    position: relative;
+    bottom: 20px;
+    border: 3px solid var(--pl-secondary-light);
+    background-color: var(--pl-light);
+    padding: 0.1rem;
+}
 /* #endregion Play5 */
 
 /* #region Takes_two */
